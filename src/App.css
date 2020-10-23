@@ -25,40 +25,42 @@
     }   
 }
 
-
-@media (min-width: 1290px) and (max-width: 1320px) {
-    .demoSignup {
-        width: 97%;
-        margin-left: -30px;
-    }   
-}
-
-
 @media (max-width: 1290px) {
     .demoSignup {
-        display: block;
-        /* margin: 15px auto; */
-    }   
+        width: 100%;
+    }
+} 
 
-    .demoSignup__info {
+@media only screen and (max-width: 1024px){
+    .demoSignup {
+        width: 60%;
         margin: auto;
-        width: 50%;
+        display: block;
+        position: relative;
     }
 
     .demoSignup__form {
+        width: 87%;
+        margin-top: 50px;
         position: absolute;
-        top: 9%;
-        left: 25%;
-        width: 40%;
+        top: 7%;
     }
 }
 
 @media (max-width: 950px) {
+    .demoSignup {
+        overflow-x: hidden !important;
+        width: 60%;
+        margin: auto;
+        display: block;
+        position: relative;
+    }
+
     .demoSignup__form {
-        min-width: 50%;
+        width: 85%;
+        top: 10%;
     }
 }
-
 
 @media (max-width: 683px) {
     .demoSignup__form {
@@ -66,38 +68,36 @@
     }
 }
 
-@media only screen and (max-width: 1200px) and (min-width: 1024px) {
-    .demoSignup {
-        margin-left: 50px;
-    }
-}
 
 @media only screen and (max-width: 768px) {
     .demoSignup__form {
+        width: 83%;
         top: 9.5%;
     }
 }
 
 @media only screen and (max-width: 540px) {
+    .demoSignup {
+        width: 80%;
+    }
+
     .demoSignup__form {
+        width: 80%;
         top: 10.5%;
     }
 }
 
 @media only screen and (max-width: 414px) {
     .demoSignup {
-        max-width: 82%;
+        width: 100%;
         margin: 0px auto;
         padding: 0px;
         margin-top: 40px;
-        margin-left: -30px;
-        /* overflow-x: hidden; */
     }
 
     .demoSignup__form {
         width: 100%;
-        top: 9.5%;
-        /* left: 14%; */
+        top: 10.5%;
         margin: 0px auto;
     }
 
@@ -114,11 +114,7 @@
 }
 
 @media only screen and (max-width: 330px) {
-    .demoSignup {
-        margin-left: -23px;
-    }
     .demoSignup__form {
-        width: 98%;
         top: 12%;
     }
 }
@@ -128,15 +124,3 @@
         top: 15.5%;
     }
 }
-
-
-@media only screen and (max-width: 500px) and (min-width: 400px) {}
-
-@media only screen and (max-width: 600px) and (min-width: 501px) {}
-
-@media only screen and (max-width: 768px) and (min-width: 601px) {}
-
-@media only screen and (max-width: 1024px) and (min-width: 770px) {}
-
-
-@media only screen and (min-width: 1500px) {}

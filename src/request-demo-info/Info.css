@@ -47,40 +47,31 @@
 
 @media (max-width: 1290px) {
     .info {
-        margin-left: -75px;
-    }
-
-    .info__data1 {
-        margin-bottom: 700px;
-        min-width: 110% !important;
-        max-width: 110% !important;
-    }
-
-    .info__data2 {
-        min-width: 110% !important;
-        max-width: 110% !important;
+        margin-right: 0px !important;
+        max-width: 95%;
     }
 }
 
-@media (max-width: 1190px) {
-    .info {
-        margin-left: -75px;
+@media (max-width: 1260px) {
+    .info__container {
+        margin-left: 0px;
     }
 }
 
+@media only screen and (max-width: 1024px) {
+    .info__data1{
+        margin-bottom: 630px;
+    }
+}
 
 @media (max-width: 960px) {
-    .info__data2, .info__data1 {
-        min-width: 140% !important;
-        max-width: 140% !important;
+    .info {
+        max-width: 100%;
     }
 
     .info__svg {
-        min-width: 130% !important;
-        max-width: 130% !important;
-    }
-    .info {
-        margin-left: -75px;
+        width: 100% !important;
+        margin-left: 30px;
     }
 }
 
@@ -90,11 +81,6 @@
     }
 }
 
-@media only screen and (max-width: 1200px) and (min-width: 1024px) {
-    .info__data1{
-        margin-bottom: 630px;
-    }
-}
 
 @media only screen and (max-width: 768px) {
     .info__data1{
@@ -102,7 +88,7 @@
     }
     .info__svg {
         margin-top: 20px;
-        margin-left: 40px;
+        margin-left: 10px;
     }
 }
 
@@ -132,16 +118,7 @@
     }
     .info__svg {
         margin-top: 20px;
-        margin-left: 15px;
-    }
-}
-
-@media only screen and (max-width: 400px) and (min-width: 340px) {
-    .info{
         margin-left: 0px;
-    }
-    .info__svg {
-        min-width: 135% !important;
     }
 }
 

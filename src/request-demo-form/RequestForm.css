@@ -118,7 +118,12 @@
 
 @media (max-width: 1290px) {
     .form {
-        margin-left: -35px;
+        margin-left: 0;
+        width: 100%;
+    }
+    
+    .form__select {
+        width: 98.5%;
     }
 }
 
@@ -132,6 +137,12 @@
     }
 }
 
+@media (max-width: 1070px) {
+    .form__select {
+        width: 99.5%;
+    }
+}
+
 @media only screen and (max-width: 540px) {
     .form__name {
         display: block;
@@ -142,12 +153,17 @@
         display: block;
         width: 100%;
     }
+
+    .form__nameInput > input {
+        width: 95%;
+    }
 }
 
 
 @media only screen and (max-width: 414px) {
     .form {
-        width: 90%;
+        width: 75%;
+        margin: auto;
     }
 
     .form__name {
